@@ -1,0 +1,44 @@
+.background {
+    background-color: black;
+    width: 500px;
+    padding: 10px;
+    color: white;
+    height: 400px;
+    border-radius: 10px;
+
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.calc {
+    border-radius: 10px;
+    margin: 10px;
+    width: 93%;
+    text-align: end;
+    text-align:right;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: #4a544d;
+    color: white;
+    width: 20%;
+    height: 44px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
